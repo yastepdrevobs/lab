@@ -1,5 +1,7 @@
+#імпортуємо рандом
 import random
 
+#тут функція
 def find_pairs(numbers):
     for i in range(len(numbers)):
         for j in range(i + 1, len(numbers)):
@@ -14,6 +16,5 @@ def find_pairs(numbers):
 # Генеруємо випадковий масив чисел
 numbers = [random.randint(1, 10) for _ in range(random.randint(5, 15))]
 
-#
-# Викликаю функцію
+# Викликаємо функцію
 find_pairs(numbers)
